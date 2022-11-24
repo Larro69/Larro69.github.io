@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+
+    background-color: #4C3A51
+    
+}   
+
+h1{
+
+    text-align:center ;
+    background-color: #B25068; 
+    color: aliceblue;
+    padding: 10px; 
+    border-radius: 5px;
+    margin-left: 400px; 
+    margin-right: 400px
+
+}
+
+
+
+div{
+
+    text-align:center ;
+    background-color: #B25068; 
+    color: aliceblue;
+    padding: 10px; 
+    border-radius: 5px;
+    margin-left: 400px; 
+    margin-right: 400px
+}
+
+.imagen{
+    
+    background-color:#4C3A51 ;
+    margin:auto
+}

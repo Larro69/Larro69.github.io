@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    text-align: center;
+
+}
+.contenedor{
+ 
+    background-color: #fff;
+
+}
+
+.header{
+    background-color: #B1B2FF;
+    width: 1000px;
+    height: 150px;
+    margin: auto;
+    margin-bottom: 0px;
+}
+
+.menu{
+    background-color: #AAC4FF;
+    width: 1000px;
+    height: 150px;
+    margin: auto;
+    margin-bottom: 0px;
+    
+}
+
+menu, a{
+
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 10px;
+    color: black;
+    position: relative;
+    top: 50px;
+}
+
+.contenidos{
+    margin: auto;
+    width: 1000px;
+    height: 200px;
+}
+
+
+.contenido1{
+    background-color:#DBDFFD ;
+    width: 250px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    display: flex;
+
+
+}
+
+.contenido-c{
+    background-color:#646FD4 ;
+    width: 500px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    display: flex;
+
+}
+
+.contenido2{
+    background-color:#DBDFFD ;
+    width: 250px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    display: flex; 
+
+
+}
+
+.pie{
+    background-color: #B1B2FF;
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 150px;
+    clear: both;
+}

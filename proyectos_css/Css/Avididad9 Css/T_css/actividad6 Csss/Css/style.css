@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    font-family: 'Roboto', sans-serif;
+    background: #E9EFC0;
+
+}
+
+nav a{
+
+    background-color: #B4E197;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px ;
+    border-radius:10px;
+    position: relative;
+    top: 13px;
+    left: 500px;
+   
+}
+
+.caja_estatica{
+
+    background-color: #B4E197;
+    color: fff;
+    width: 200px;
+    height: 200px;
+    position:static;
+    border-radius: 5px;
+    
+}
+
+.caja_relativa{
+
+    background-color: #B4E197;
+    color: #fff;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 70px;
+    top: 40px;
+    border-radius: 5px;
+    
+
+}
+
+.cajas_x{
+
+    background: #000;
+    color: #fff;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 40%;
+    bottom: -50px;
+    border-radius: 5px;
+    
+
+}
+
+.cajas_color{
+
+    background-color: #4E944F;
+    color: #fff;
+    width: 1350px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.caja_adsoluta{
+
+    background-color: #B4E197;
+    padding: 50px;
+    position:absolute; 
+    left: 80px;
+    border-radius: 5px;
+    
+
+}
+
+.clases_fixed{
+
+    background-color: #4E944F;
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+*{
+
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+
+}
+
+body{
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container{
+
+    width: 90%;
+    max-width: 1000px;
+    height: 90vh;
+    /* background-color: #7FC8A9; */
+    margin: auto;
+
+}
+
+.container header{
+
+    background-color: #5F7A61;
+    color: #fff ;
+    padding: 50px;
+    text-align: center;
+
+}
+
+.container nav{
+
+    background-color: #D5EEBB;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-items:wrap ;
+
+}
+
+.container nav a{
+
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    flex-grow:  1;
+
+}
+
+.container nav a:hover{
+
+    background-color: #928a8a;
+
+}
+
+.container .main{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+
+}
+
+.container .main aside{
+
+    background-color: #7FC8A9;
+    color: black;
+    padding: 20px;
+    flex: 30%;
+
+}
+
+.container .main section{
+
+background-color: #444941;
+color: #fff;
+padding:20px ;
+flex: 70%;
+
+}
+footer{
+
+    background-color: #5F7A61;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.container .main aside h2{
+
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.container .main aside ul{
+
+    width: 100%;
+}
+.container .main aside ul li {
+
+    list-style: none;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 5px;
+}
+.container .main aside ul li a{
+
+    color: #002B5B;
+    text-decoration: none;
+    padding-left: 5px;
+}
+.container .main aside ul li:hover{
+
+    background-color: #80d3bf;
+    color: #000;
+}
+
+
+@media screen and (max-width:800px) {
+
+    .container nav{
+
+        flex-direction: column;
+
+    }
+
+    .container .main{
+
+        flex-direction: column;
+
+    }
+    
+}

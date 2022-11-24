@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,700&family=Roboto:wght@300&display=swap');
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+    background-color: #C1EFFF;
+
+}
+
+.logo img {
+
+    display: block;
+    margin: auto;
+
+
+}
+
+.botones {
+
+    text-align: center;
+    margin-left: 5px;
+
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    background-color: #5dbde3;
+    padding: 13px;
+    border-radius: 13px;
+    color: #fff;
+    margin-right: 5px;
+
+}
+
+h1 {
+
+    text-align: center;
+    background-color: #5dbde3;
+    margin: 0 240px;
+    border-radius: 13px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 3px;
+    padding-right: 3px;
+
+
+}
+
+.imagenes img {
+
+    padding-left: 5px;
+    border-radius: 10px;
+
+}
+
+p {
+
+    background-color: #284286;
+    padding: 13px;
+    border-radius: 13px;
+    color: #fff;
+
+
+}
+p span{ 
+
+  border-radius:1px solid #fff;         
+  font-weight: bold;        
+  padding: 4px; 
+}
+
+h2{
+
+    
+    background-color: #5dbde3;
+    width: 180px;
+    border-radius: 13px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 3px;
+    padding-right: 3px;
+    
+
+}
+
+ul{
+
+    background-color:  #071451 ;
+    border-radius: 13px;
+    width: 130px;
+    
+}
+
+li{
+    color: #fff;
+    padding-bottom: 5px;
+    
+    
+}

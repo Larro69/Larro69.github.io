@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="form-body">
+
+        <img src="Img/calculadora .png"   alt="calculadora">
+
+        <br>
+        <br>
+
+        <p class="text"> app calculadura v 1.0</p>
+
+        <br>    
+
+        <form class="calculadora-form">
+            <input type="number" name="n1" id="n1" placeholder="Digite el primer numero" >
+            <input type="number" name="n2" id="n2" placeholder="Digite el segundo numero" >
+            <input type="button" value="+ " id="button" onclick="sumar()" >
+            <input type="button" value="- " id="button" onclick=" restar()" >
+            <input type="button" value="X " id="button" onclick="multiplicacion()" >
+            <input type="button" value="/ " id="button" onclick="divicion()" >
+
+            
+
+            <!-- <input type="button" value="sumar" onclick="sumar()" >  -->
+
+
+            <!-- <input type="number" name="res" id="res"> -->
+
+            <p class="js" id="resultado_suma"></p>
+            <p class="js" id="resultado_resta"></p>
+            <p class="js" id="resultado_multiplicacion"></p>
+            <p class="js" id="resultado_divicion"></p>
+
+
+        </form>
+
+
+    </div>
+
+    <!-- <form action="">
+
+        <label class="n1" for="n1">Digite el primero numero </label>
+        <input type="number" name="n1" id="n1">
+
+        <label class="n2" for="n2">Digite el segundo numero </label>
+
+        <input type="number" name="n2" id="n2">
+
+        <input type="button" value="calcular " onclick="sumar()">
+        
+        <p id="resultado"></p>
+
+    </form>
+    -->
+    <div>
+        <script src="Js/app.js"></script>
+
+    </div>
+
+
+
+</body>
+
+</html>
